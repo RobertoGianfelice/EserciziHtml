@@ -10,3 +10,6 @@ p {
 table {
   background-color: red;
 }
+th {
+  background-color: green;
+}
