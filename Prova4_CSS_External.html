@@ -6,19 +6,60 @@
     <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
-    <h1>Attenzione!!!!</h1>
-    <p>ciao come stai</p>
-    <p title="suggerimento" >ciao come stai</p>
+    <h1>Esercitazione con tabelle e css</h1>
+    <p>Oggi vedremo come strutturare un atabella con colonne non costanti nelle varie righe e utilizzando i CSS</p>
+    <p title="suggerimento" >potete usare sia CSS in-line, interni e esterni</p>
     <table border=1>
       <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
+        <th colspan="4">Le miei preferenze</th>
       </tr>
       <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>C</td>
+        <th colspan="4">I miei film preferiti</th>
+      </tr>
+      <tr>
+        <th>Titolo</th>
+        <th>Anno</th>
+        <th colspan="2">Genere</th>
+      </tr>
+      <tr>
+        <td>film1</td>
+        <td>anno1</td>
+        <td colspan="2">genere1</td>
+      </tr>
+      <tr>
+        <th colspan="4">I miei cantanti preferiti</th>
+      </tr>
+      <tr style="">
+        <th>Nome</th>
+        <th colspan="2">Album</th>
+        <th>Anno</th>
+      </tr>
+      <tr>
+        <td rowspan="3">cantante1</td>
+        <td colspan="2">album1</td>
+        <td>Anno</td>
+      </tr>
+      <tr>
+        <td colspan="2">album2</td>
+        <td>Anno 2</td>
+      </tr>
+      <tr>
+        <td colspan="2">album3</td>
+        <td>Anno 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">cantante2</td>
+        <td colspan="2">album1</td>
+        <td>Anno</td>
+      </tr>
+      <tr>
+        <td colspan="2">album2</td>
+        <td>Anno 2</td>
+      </tr>
+      <tr>
+        <td style="background-color: yellow;">cantante3</td>
+        <td colspan="2">album1</td>
+        <td>Anno</td>
       </tr>
     </table>
   </body>
