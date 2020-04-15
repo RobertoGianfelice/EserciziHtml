@@ -10,3 +10,12 @@ p {
 #tdSpan {
   background : yellow;
 }
+table {
+  background-color: green;
+}
+td {
+  background-color: yellow;
+}
+td.genere {
+  background-color: red;
+}
