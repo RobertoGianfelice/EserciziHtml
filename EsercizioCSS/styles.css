@@ -1,0 +1,95 @@
+#corpo {
+  background-color: white;
+  height: auto;
+  background-color: #cccccc;
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+
+}
+
+#stemma {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 3px solid #73AD21;
+}
+
+#pagella {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pagella td {
+  width:15%;
+}
+
+#pagella, td,th{
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+td, th {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin:10px;
+  padding:3px;
+}
+
+th {
+  background-color: brown;
+}
+
+caption {
+  padding: 7px;
+  background: silver;
+  font-family: Arial, sans-serif;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+}
+
+.immagine {
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.voti {
+  background: red;
+}
+
+#pagella .voti:hover {
+  background-color: yellow;
+}
+
+.nome {
+  background: green;
+}
+
+#pagella .nome:hover {
+  background-color: white;
+}
+
+.foto {
+  background: yellow;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+  color: gold;
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+
+}
