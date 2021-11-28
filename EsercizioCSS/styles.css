@@ -5,6 +5,18 @@
   background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
 
 }
+.centro{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: 100%;
+  /*Se la vuoi più piccola basta ridurre la dimensione in altezza e la larghezza si adatta*/
+  /* height: 200px; */;
+}
 
 #stemma {
   display: block;
@@ -58,12 +70,29 @@ caption {
   width: 90%;
 }
 
+.voti .prove {
+  display: none;
+  padding: 1px;
+}
+
+.voti .prove td,th{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:10px;
+  padding:3px;
+}
+
 .voti {
   background: red;
 }
 
 #pagella .voti:hover {
   background-color: yellow;
+
+}
+#pagella .voti:hover .prove{
+  display:table;
 }
 
 .nome {
